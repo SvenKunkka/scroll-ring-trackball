@@ -1,3 +1,7 @@
+<!-- SVENKUNKKA-README-NAV:BEGIN -->
+[中文项目说明](#project-overview-zh) · [English overview](#project-overview-en) · [维护者 X / Maintainer on X](https://x.com/Svenu1s5)
+<!-- SVENKUNKKA-README-NAV:END -->
+
 # DIY trackball with scroll ring
 
 This repository contains design files and code that can be used to make a fully programmable four-button USB trackball with a scroll ring.
@@ -42,3 +46,32 @@ The Hall sensors' + leads are connected to 3.3V. The rest of the pin numbers are
 ![Internals of the trackball](images/internals1.jpg)
 
 ![Internals of the trackball](images/internals2.jpg)
+
+
+---
+
+<!-- SVENKUNKKA-PROJECT-INFO:BEGIN -->
+
+<a id="project-overview-zh"></a>
+## 中文项目说明
+
+来自 jfedor2/scroll-ring-trackball 的个人 Fork，提供带滚动环的四键 USB DIY 轨迹球设计文件与代码，使用 RP2040、PMW3360、57.2 mm 球及霍尔传感器，可在设备上保存映射配置。
+
+**使用入口：** 依据原 README 的物料与接线说明制作，模型见 [3d-models](3d-models)，固件入口为 [trackball.uf2](firmware/trackball.uf2)。
+
+**范围说明：** 上游只说明配置工具在 Linux 测试过，Windows/macOS 可用性尚未确认；需自行完成硬件制作与验证，保留原作者归属。
+
+<a id="project-overview-en"></a>
+## English project overview
+
+A personal fork of jfedor2/scroll-ring-trackball with design files and code for a four-button USB DIY trackball with a scroll ring, using an RP2040, PMW3360, 57.2 mm ball and Hall sensors, with mappings stored on the device.
+
+**Getting started:** Follow the upstream bill of materials and wiring instructions in the original README. Models are in [3d-models](3d-models) and firmware is provided as [trackball.uf2](firmware/trackball.uf2).
+
+**Scope:** Upstream reports testing the configuration tool only on Linux; Windows/macOS operation is unconfirmed. Hardware assembly and validation are required, and original authorship is preserved.
+
+**本 Fork 的维护者 / Maintainer of this fork:** [SvenKunkka](https://github.com/SvenKunkka) · [X / Twitter](https://x.com/Svenu1s5)
+
+**上游项目 / Upstream:** [jfedor2/scroll-ring-trackball](https://github.com/jfedor2/scroll-ring-trackball)。保留原作者署名与原许可证 / Original authorship and license notices are retained.
+
+<!-- SVENKUNKKA-PROJECT-INFO:END -->
